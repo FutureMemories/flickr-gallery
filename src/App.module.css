@@ -1,0 +1,15 @@
+.app {
+  padding: 5rem;
+}
+
+.error {
+  font-size: 1.6rem;
+  line-height: 1;
+  color: red;
+}
+
+@media screen and (max-width: 400px) {
+  .app {
+    padding: 2rem;
+  }
+}

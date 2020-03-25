@@ -1,0 +1,11 @@
+.loader {
+  font-size: 1.6rem;
+  line-height: 1;
+  margin-top: 2rem;
+}
+
+.loader em {
+  font-size: inherit;
+  display: inline-block;
+  margin-left: 1rem;
+}

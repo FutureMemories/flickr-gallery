@@ -1,0 +1,30 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: #eee;
+  padding: 2rem 5rem;
+  margin: -2rem -5rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.header h1 {
+  flex: 1;
+}
+
+.searchForm {
+  margin-left: 1rem;
+}
+
+.searchForm input {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+}
